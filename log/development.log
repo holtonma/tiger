@@ -708,3 +708,1673 @@ Completed in 83ms (View: 9, DB: 1) | 200 OK [http://localhost/events]
 Processing EventsController#index to xml (for 127.0.0.1 at 2009-12-09 20:13:59) [GET]
   [4;36;1mEvent Load (0.6ms)[0m   [0;1mSELECT * FROM "events" [0m
 Completed in 9ms (View: 5, DB: 1) | 200 OK [http://localhost/events.xml]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 20:14:36) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:14:36) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:14:36) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:14:37) [GET]
+  Parameters: {"0"=>nil}
+
+ActionController::RoutingError (No route matches "/__history__.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:14:37) [GET]
+
+ActionController::RoutingError (No route matches "/tiger.json" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 20:16:24) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:16:24) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:16:25) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:16:25) [GET]
+  Parameters: {"0"=>nil}
+
+ActionController::RoutingError (No route matches "/__history__.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing EventsController#index to xml (for 127.0.0.1 at 2009-12-09 20:16:25) [GET]
+  [4;35;1mEvent Load (0.6ms)[0m   [0mSELECT * FROM "events" [0m
+Completed in 11ms (View: 5, DB: 1) | 200 OK [http://localhost/events.xml]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:17:14) [GET]
+
+ActionController::RoutingError (No route matches "/tiger.xml" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:17:55) [GET]
+
+ActionController::RoutingError (No route matches "/tiger/index.xml" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing TigerController#index (for 127.0.0.1 at 2009-12-09 20:18:02) [GET]
+
+NameError (uninitialized constant TigerController::Events):
+  app/controllers/tiger_controller.rb:4:in `index'
+
+Rendered rescues/_trace (30.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TigerController#index (for 127.0.0.1 at 2009-12-09 20:18:38) [GET]
+
+NameError (uninitialized constant TigerController::Events):
+  app/controllers/tiger_controller.rb:4:in `index'
+
+Rendered rescues/_trace (30.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TigerController#index to xml (for 127.0.0.1 at 2009-12-09 20:18:42) [GET]
+
+NameError (uninitialized constant TigerController::Events):
+  app/controllers/tiger_controller.rb:4:in `index'
+
+Rendered rescues/_trace (30.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TigerController#index to xml (for 127.0.0.1 at 2009-12-09 20:19:20) [GET]
+  [4;36;1mEvent Load (0.6ms)[0m   [0;1mSELECT * FROM "events" [0m
+Completed in 12ms (View: 7, DB: 1) | 200 OK [http://localhost/tiger.xml]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 20:19:51) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:19:52) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:19:52) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:19:52) [GET]
+  Parameters: {"0"=>nil}
+
+ActionController::RoutingError (No route matches "/__history__.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing TigerController#index to xml (for 127.0.0.1 at 2009-12-09 20:19:52) [GET]
+  [4;35;1mEvent Load (0.6ms)[0m   [0mSELECT * FROM "events" [0m
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://localhost/tiger.xml]
+
+
+Processing TigerController#index to xml (for 127.0.0.1 at 2009-12-09 20:20:07) [GET]
+  [4;36;1mEvent Load (0.6ms)[0m   [0;1mSELECT * FROM "events" [0m
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://localhost/tiger.xml]
+
+
+Processing TigerController#index to xml (for 127.0.0.1 at 2009-12-09 20:20:19) [GET]
+  [4;35;1mEvent Load (0.5ms)[0m   [0mSELECT * FROM "events" [0m
+Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/tiger.xml]
+
+
+Processing TigerController#index to json (for 127.0.0.1 at 2009-12-09 20:24:16) [GET]
+  [4;36;1mEvent Load (0.6ms)[0m   [0;1mSELECT * FROM "events" [0m
+Completed in 6ms (View: 1, DB: 1) | 406 Not Acceptable [http://localhost/tiger.json]
+
+
+Processing TigerController#index to json (for 127.0.0.1 at 2009-12-09 20:24:32) [GET]
+  [4;35;1mEvent Load (0.6ms)[0m   [0mSELECT * FROM "events" [0m
+Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/tiger.json]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 20:27:32) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:27:32) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:27:32) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:27:33) [GET]
+  Parameters: {"0"=>nil}
+
+ActionController::RoutingError (No route matches "/__history__.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing TigerController#index to xml (for 127.0.0.1 at 2009-12-09 20:27:34) [GET]
+  [4;36;1mEvent Load (0.6ms)[0m   [0;1mSELECT * FROM "events" [0m
+Completed in 10ms (View: 4, DB: 1) | 200 OK [http://localhost/tiger.xml]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 20:28:11) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:28:11) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:28:11) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:28:12) [GET]
+  Parameters: {"0"=>nil}
+
+ActionController::RoutingError (No route matches "/__history__.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing TigerController#index to xml (for 127.0.0.1 at 2009-12-09 20:28:12) [GET]
+  [4;35;1mEvent Load (0.7ms)[0m   [0mSELECT * FROM "events" [0m
+Completed in 10ms (View: 4, DB: 1) | 200 OK [http://localhost/tiger.xml]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 20:28:31) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:28:31) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:28:31) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:28:32) [GET]
+  Parameters: {"0"=>nil}
+
+ActionController::RoutingError (No route matches "/__history__.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing TigerController#index to xml (for 127.0.0.1 at 2009-12-09 20:28:32) [GET]
+  [4;36;1mEvent Load (0.7ms)[0m   [0;1mSELECT * FROM "events" [0m
+Completed in 11ms (View: 5, DB: 1) | 200 OK [http://localhost/tiger.xml]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 20:28:39) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:28:39) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:28:39) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:28:41) [GET]
+  Parameters: {"0"=>nil}
+
+ActionController::RoutingError (No route matches "/__history__.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 20:29:36) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:29:36) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:29:36) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:29:37) [GET]
+  Parameters: {"0"=>nil}
+
+ActionController::RoutingError (No route matches "/__history__.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 20:32:29) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:32:29) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:32:29) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:32:30) [GET]
+  Parameters: {"0"=>nil}
+
+ActionController::RoutingError (No route matches "/__history__.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 20:36:08) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:36:08) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:36:09) [GET]
+  Parameters: {"0"=>nil}
+
+ActionController::RoutingError (No route matches "/__history__.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 20:38:14) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:38:15) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:38:15) [GET]
+  Parameters: {"0"=>nil}
+
+ActionController::RoutingError (No route matches "/__history__.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 20:39:01) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:39:02) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:39:03) [GET]
+  Parameters: {"0"=>nil}
+
+ActionController::RoutingError (No route matches "/__history__.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 20:39:49) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:39:49) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:39:51) [GET]
+  Parameters: {"0"=>nil}
+
+ActionController::RoutingError (No route matches "/__history__.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 20:41:48) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:41:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:41:50) [GET]
+  Parameters: {"0"=>nil}
+
+ActionController::RoutingError (No route matches "/__history__.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 20:42:21) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:42:21) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:42:22) [GET]
+  Parameters: {"0"=>nil}
+
+ActionController::RoutingError (No route matches "/__history__.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 20:43:22) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:43:23) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:43:24) [GET]
+  Parameters: {"0"=>nil}
+
+ActionController::RoutingError (No route matches "/__history__.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 20:44:56) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:44:56) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:44:57) [GET]
+  Parameters: {"0"=>nil}
+
+ActionController::RoutingError (No route matches "/__history__.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 20:45:29) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:45:30) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:45:30) [GET]
+  Parameters: {"0"=>nil}
+
+ActionController::RoutingError (No route matches "/__history__.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 20:45:47) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:45:47) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:45:48) [GET]
+  Parameters: {"0"=>nil}
+
+ActionController::RoutingError (No route matches "/__history__.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 20:48:25) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:48:25) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:48:26) [GET]
+  Parameters: {"0"=>nil}
+
+ActionController::RoutingError (No route matches "/__history__.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 20:48:33) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:48:33) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:48:33) [GET]
+  Parameters: {"0"=>nil}
+
+ActionController::RoutingError (No route matches "/__history__.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 20:52:51) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:52:51) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:52:52) [GET]
+  Parameters: {"0"=>nil}
+
+ActionController::RoutingError (No route matches "/__history__.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 20:55:12) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:55:12) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:55:13) [GET]
+  Parameters: {"0"=>nil}
+
+ActionController::RoutingError (No route matches "/__history__.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 20:56:18) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:56:18) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:56:19) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:56:20) [GET]
+  Parameters: {"0"=>nil}
+
+ActionController::RoutingError (No route matches "/__history__.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 20:59:55) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:59:55) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:59:55) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 20:59:57) [GET]
+  Parameters: {"0"=>nil}
+
+ActionController::RoutingError (No route matches "/__history__.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:00:47) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:00:47) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:00:47) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:00:48) [GET]
+  Parameters: {"0"=>nil}
+
+ActionController::RoutingError (No route matches "/__history__.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:01:06) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:01:07) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:01:07) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:01:08) [GET]
+  Parameters: {"0"=>nil}
+
+ActionController::RoutingError (No route matches "/__history__.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:02:06) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:02:06) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:02:07) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:02:08) [GET]
+  Parameters: {"0"=>nil}
+
+ActionController::RoutingError (No route matches "/__history__.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:03:00) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:03:00) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:03:00) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:03:02) [GET]
+  Parameters: {"0"=>nil}
+
+ActionController::RoutingError (No route matches "/__history__.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:03:23) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:03:23) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:03:23) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:03:25) [GET]
+  Parameters: {"0"=>nil}
+
+ActionController::RoutingError (No route matches "/__history__.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:04:16) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:04:16) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:04:16) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:05:42) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:05:42) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:05:43) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:05:57) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:05:57) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:05:58) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:16:21) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:16:21) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:16:21) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:16:49) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:16:49) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:16:49) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:17:04) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:17:04) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:17:05) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:18:07) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:18:07) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:18:07) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:18:26) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:18:27) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:18:27) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:19:10) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:19:10) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:19:10) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:19:33) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:19:33) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:19:34) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:19:52) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:19:52) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:19:53) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:21:04) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:21:04) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:21:05) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:21:24) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:21:24) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:21:24) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:23:00) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:23:00) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:23:01) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:23:33) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:23:33) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:23:33) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:23:43) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:23:43) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:23:44) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:23:52) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:23:52) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:23:52) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:24:40) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:24:41) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:24:41) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:26:15) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:26:15) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:26:16) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:26:31) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 73ms (View: 72, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:26:31) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:26:31) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:28:48) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:28:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:28:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:29:41) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:29:41) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:29:41) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:30:59) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:30:59) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:31:00) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:32:16) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:32:16) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:32:16) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:32:37) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:32:37) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:32:38) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:33:52) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:33:52) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:33:52) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:34:12) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:34:12) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:34:13) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:34:28) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:34:29) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:34:29) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:34:41) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:34:41) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:34:41) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:34:47) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:34:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:34:49) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:35:04) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:35:05) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:35:05) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:35:14) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:35:14) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:35:15) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:35:31) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:35:31) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:35:31) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-09 21:35:46) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:35:46) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-09 21:35:46) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
