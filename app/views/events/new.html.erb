@@ -1,0 +1,35 @@
+<h1>New event</h1>
+
+<% form_for(@event) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :start %><br />
+    <%= f.datetime_select :start %>
+    <%# f.text_field :newspaper, :size => 20 %>
+    <%# select ("newspaper", "id", @newspapers.map {|u| [u.name,u.id]}) %>
+  </p>
+  <p>
+    <%= f.label :end %><br />
+    <%= f.datetime_select :end %>
+    <%# f.text_field :title, :size => 100 %>
+  </p>
+  <p>
+    <%= f.label :description %><br />
+    <%= f.text_field :description, :size => 100 %>
+  </p>
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+    <%# textile_editor 'content', :content -%>
+  </p>
+  <p>
+    <%= f.label :duration_event %><br />
+    <%= f.text_field :duration_event %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', events_path %>
