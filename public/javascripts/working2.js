@@ -94,7 +94,7 @@ function onLoad() {
   eventSource.add(evt);
   
   var dateEvent = new Date();
-  var curdate = "Tues, 31 Nov 2009 11:45:00 EST"
+  var curdate = "Tues, 1 Dec 2009 11:45:00 EST"
   var dt = Date.parse(curdate)
   console.log("dateEvent.getTime(): ", dateEvent.getTime())
   dateEvent.setTime(dt);
@@ -109,6 +109,201 @@ function onLoad() {
      /* */
   );
   eventSource.add(evt);
+  
+  var dateEvent = new Date();
+  var curdate = "Wed, 2 Dec 2009 11:45:00 EST"
+  var dt = Date.parse(curdate)
+  console.log("dateEvent.getTime(): ", dateEvent.getTime())
+  dateEvent.setTime(dt);
+  var evt = new Timeline.DefaultEventSource.Event(
+     dateEvent, //start
+     dateEvent, //end
+     dateEvent, //latestStart
+     dateEvent, //earliestEnd
+     true, //instant
+     "Grubbs and US Weekly",
+     "Us Weekly magazine reports that a Los Angeles cocktail waitress, Jaimee Grubbs, claims she had a 31-month affair with Woods. The magazine posts on its website what it claims is a voice mail, provided by Grubbs, that Woods left on her phone a few days before the car accident. Woods issues a statement saying he let his family down with 'transgressions' he regrets 'with all of my heart,' and that he will deal with his personal life behind closed doors. Woods did not offer details of any alleged relationship. FHP issues its final report on the accident, including that after leaving his driveway, Woods' SUV crossed over a curb, onto a grass median and into a row of hedges before swerving into a hydrant and crashing into a tree; the SUV was traveling at 30 mph."
+  );
+  eventSource.add(evt);
+  
+  var dateEvent = new Date();
+  var curdate = "Thurs, 3 Dec 2009 11:45:00 EST"
+  var dt = Date.parse(curdate)
+  console.log("dateEvent.getTime(): ", dateEvent.getTime())
+  dateEvent.setTime(dt);
+  var evt = new Timeline.DefaultEventSource.Event(
+     dateEvent, //start
+     dateEvent, //end
+     dateEvent, //latestStart
+     dateEvent, //earliestEnd
+     true, //instant
+     "Confession",
+     "Woods posts a more apologetic statement on his website, stating, 'I have let my family down and I regret those transgressions with all of my heart.'"
+     );
+  eventSource.add(evt);
+  
+  dateEvent = new Date();
+  curdate = "Thurs, 3 Dec 2009 11:45:00 EST"
+  dt = Date.parse(curdate)
+  console.log("dateEvent.getTime(): ", dateEvent.getTime())
+  dateEvent.setTime(dt);
+  evt = new Timeline.DefaultEventSource.Event(
+     dateEvent, //start
+     dateEvent, //end
+     dateEvent, //latestStart
+     dateEvent, //earliestEnd
+     true, //instant
+     "Mistress 1 out",
+     "Uchitel schedules a press conference and is widely expected to admit an affair with Woods, recanting her original denial. The press conference is canceled amid rumors Woods' camp had paid her off."
+     );
+  eventSource.add(evt);
+  
+  dateEvent = new Date();
+  curdate = "Thurs, 3 Dec 2009 11:45:00 EST"
+  dt = Date.parse(curdate)
+  console.log("dateEvent.getTime(): ", dateEvent.getTime())
+  dateEvent.setTime(dt);
+  evt = new Timeline.DefaultEventSource.Event(
+     dateEvent, //start
+     dateEvent, //end
+     dateEvent, //latestStart
+     dateEvent, //earliestEnd
+     true, //instant
+     "Jesper speaks",
+     " Swedish golfer Jesper Parnevik, who introduced Tiger to Elin and employed Elin as a nanny, says, 'I have lost all respect for him, primarily as a man and a father.'"
+     );
+  eventSource.add(evt);
+  
+  dateEvent = new Date();
+  curdate = "Thurs, 5 Dec 2009 11:45:00 EST"
+  dt = Date.parse(curdate)
+  console.log("dateEvent.getTime(): ", dateEvent.getTime())
+  dateEvent.setTime(dt);
+  evt = new Timeline.DefaultEventSource.Event(
+     dateEvent, //start
+     dateEvent, //end
+     dateEvent, //latestStart
+     dateEvent, //earliestEnd
+     true, //instant
+     "Mistress 4",
+     "Model Jamie Jungers tells UK's Sunday Mirror that she started a two-year affair with Woods while partying in Vegas. She was engaged to a devoted Woods fan at the time."
+     );
+  eventSource.add(evt);
+  
+  dateEvent = new Date();
+  curdate = "Thurs, 6 Dec 2009 11:45:00 EST"
+  dt = Date.parse(curdate)
+  console.log("dateEvent.getTime(): ", dateEvent.getTime())
+  dateEvent.setTime(dt);
+  evt = new Timeline.DefaultEventSource.Event(
+     dateEvent, //start
+     dateEvent, //end
+     dateEvent, //latestStart
+     dateEvent, //earliestEnd
+     true, //instant
+     "Mistress 5 & 6",
+     "Cori Rist met Woods at the Manhattan nightclub Butter and, a year later, was still regularly hooking up with her, often in large hotel suites, according to the New York Daily News. Woods met Mindy Lawton (said the News of the World) in the decided less exclusive Perkins chain of bakery restaurants, before doing her in a church parking lot and naming her 'rag doll.'"
+     );
+  eventSource.add(evt);
+  
+  dateEvent = new Date();
+  curdate = "Thurs, 7 Dec 2009 11:45:00 EST"
+  dt = Date.parse(curdate)
+  console.log("dateEvent.getTime(): ", dateEvent.getTime())
+  dateEvent.setTime(dt);
+  evt = new Timeline.DefaultEventSource.Event(
+     dateEvent, //start
+     dateEvent, //end
+     dateEvent, //latestStart
+     dateEvent, //earliestEnd
+     true, //instant
+     "Mistress 7",
+     "Porn star Holly Sampson won't deny an affair. Just in case you were wondering."
+     );
+  eventSource.add(evt);
+  
+  dateEvent = new Date();
+  curdate = "Thurs, 7 Dec 2009 14:45:00 EST"
+  dt = Date.parse(curdate)
+  console.log("dateEvent.getTime(): ", dateEvent.getTime())
+  dateEvent.setTime(dt);
+  evt = new Timeline.DefaultEventSource.Event(
+     dateEvent, //start
+     dateEvent, //end
+     dateEvent, //latestStart
+     dateEvent, //earliestEnd
+     true, //instant
+     "Mother in Law visit",
+     "Elin's mother Barbro Holmberg, said to be in the Woods home at the time of Tiger and Elin's Thanksgiving-night fight, along with Tiger's own mom, is reportedly flying to the U.S. to be with her daughter."
+     );
+  eventSource.add(evt);
+  
+  dateEvent = new Date();
+  curdate = "Thurs, 8 Dec 2009 14:45:00 EST"
+  dt = Date.parse(curdate)
+  console.log("dateEvent.getTime(): ", dateEvent.getTime())
+  dateEvent.setTime(dt);
+  evt = new Timeline.DefaultEventSource.Event(
+     dateEvent, //start
+     dateEvent, //end
+     dateEvent, //latestStart
+     dateEvent, //earliestEnd
+     true, //instant
+     "MIL Emergency",
+     "Holmberg is rushed to the hospital on 'advanced life support.'"
+     );
+  eventSource.add(evt);
+  
+  dateEvent = new Date();
+  curdate = "Thurs, 8 Dec 2009 17:45:00 EST"
+  dt = Date.parse(curdate)
+  console.log("dateEvent.getTime(): ", dateEvent.getTime())
+  dateEvent.setTime(dt);
+  evt = new Timeline.DefaultEventSource.Event(
+     dateEvent, //start
+     dateEvent, //end
+     dateEvent, //latestStart
+     dateEvent, //earliestEnd
+     true, //instant
+     "Tiger's madams revealed",
+     "Deadspin reports that Uchitel's job was to line up women for Tiger at tournaments around the world. Numerous sources tell the sports blog that she may have slept with him, too, but that she was not primarily his mistress. Deadspin says Kalika Moquin played a similar role, and is not widely believed to have slept with Woods."
+     );
+  eventSource.add(evt);
+  
+  dateEvent = new Date();
+  curdate = "Wed, 9 Dec 2009 17:45:00 EST"
+  dt = Date.parse(curdate)
+  console.log("dateEvent.getTime(): ", dateEvent.getTime())
+  dateEvent.setTime(dt);
+  evt = new Timeline.DefaultEventSource.Event(
+     dateEvent, //start
+     dateEvent, //end
+     dateEvent, //latestStart
+     dateEvent, //earliestEnd
+     true, //instant
+     "Typhoid Tiger",
+     "It is noted in the business press that Tiger has not appeared in a TV commercial since Nov. 29, around the time his scandal bloomed, despite numerous endorsement contracts. Also, his Gatorade drink was cancelled. The brands involved insists this is just coincidental and nothing to do with any 'scandal!' Meanwhile, Rush Limbuagh, brings his typically top-shelf analytic skills to bear on the situation, blaming Woods for the fact that 'the black frame of mind is terrible, they're depressed, they're down... They're all livid.' Because Woods is sleeping with white women, you see."
+     );
+  eventSource.add(evt);
+  
+  dateEvent = new Date();
+  curdate = "Wed, 9 Dec 2009 23:45:00 EST"
+  dt = Date.parse(curdate)
+  console.log("dateEvent.getTime(): ", dateEvent.getTime())
+  dateEvent.setTime(dt);
+  evt = new Timeline.DefaultEventSource.Event(
+     dateEvent, //start
+     dateEvent, //end
+     dateEvent, //latestStart
+     dateEvent, //earliestEnd
+     true, //instant
+     "Uchitel sells out!",
+     "OK! reveals it will soon publish an exclusive memoir with mistress 1 and alleged Tiger madam Rachel Uchitel. Everyone assumes the celebrity gossip rag is paying her, and that the deal explains why she canceled that press conference a week earlier."
+     );
+  eventSource.add(evt);
+  
+  
+  
   
   //create the timeline
   var bandInfos = [
